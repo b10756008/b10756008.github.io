@@ -40,7 +40,9 @@
     }
     
     #a1:link,
-    .a2 {
+    .a2,
+    .a3,
+    .a4 {
         text-decoration: none;
     }
     
