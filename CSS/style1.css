@@ -2,13 +2,14 @@
     
     body {
         background-color: black;
-        min-width: 1200px;
+        max-width: 2000px;
+        height: 100%;
     }
     
     #div1 {
         position: fixed;
         width: 300px;
-        height: 900px;
+        height: 100%;
         background-color: rgb(54, 54, 54);
         margin-top: -10px;
         z-index: 3;
@@ -33,9 +34,10 @@
     
     img {
         position: absolute;
-        margin-left: 400px;
-        z-index: 1;
-        height: auto;
+        left: 50%;
+        top: 50%;
+        margin-left: -274px;
+        margin-top: -212px;
         max-width: 200%;
     }
     
