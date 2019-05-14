@@ -2,13 +2,13 @@
     
     body {
         background-color: black;
-        max-width: 1200px;
+        min-width: 1200px;
     }
     
     #div1 {
         position: fixed;
         width: 300px;
-        height: 930px;
+        height: 900px;
         background-color: rgb(54, 54, 54);
         margin-top: -10px;
         z-index: 3;
@@ -32,11 +32,11 @@
     }
     
     img {
-        float: right;
-        margin: 80px 0px 0px 0px;
+        position: absolute;
+        margin-left: 400px;
         z-index: 1;
         height: auto;
-        max-width: 100%;
+        max-width: 200%;
     }
     
     #a1:link,
