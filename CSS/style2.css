@@ -28,6 +28,7 @@
     
     .table1 {
         width: 848px;
+        max-width: 200%;
         position: absolute;
         left: 50%;
         top: 50%;

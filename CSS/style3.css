@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(246, 230, 255);
+    max-width: 2000px;
+    height: 100%;
+}
+
+#div1 {
+    position: fixed;
+    width: 300px;
+    height: 950px;
+    background-color: rgb(34, 0, 58);
+    margin-top: -10px;
+    z-index: 3;
+}
+
+#ph1 {
+    position: absolute;
+    left: 50%;
+    margin-left: 150px;
+    max-width: 200%;
+}
