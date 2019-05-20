@@ -113,7 +113,7 @@
     color: rgb(255, 0, 0);
 }
 
-.style4 #ph1 {
+.style4 #ph4 {
     position: absolute;
     left: 50%;
     margin-left: -307px;
@@ -122,7 +122,7 @@
     z-index: 1;
 }
 
-.style4 #wall {
+.style4 #wall1 {
     position: absolute;
     left: 50%;
     top: 50px;
