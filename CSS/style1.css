@@ -46,7 +46,14 @@
     .a3,
     .a4,
     .a5 {
+        text-align: center;
         text-decoration: none;
+    }
+    
+    .a5 h3 {
+        text-align: center;
+        color: rgb(245, 245, 234);
+        font-size: 15px
     }
     
     .a5 h3:hover {
