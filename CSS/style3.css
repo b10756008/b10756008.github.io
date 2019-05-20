@@ -1,10 +1,10 @@
-body {
+.style3 {
     background-color: rgb(212, 255, 253);
     max-width: 2000px;
     height: 100%;
 }
 
-#div1 {
+.style3 #div1 {
     position: fixed;
     width: 300px;
     height: 950px;
@@ -13,7 +13,7 @@ body {
     z-index: 3;
 }
 
-#ph1 {
+.style3 #ph1 {
     position: absolute;
     left: 50%;
     margin-left: -350px;
@@ -21,7 +21,7 @@ body {
     max-width: 200%;
 }
 
-#wall {
+.style3 #wall {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -30,7 +30,7 @@ body {
     width: 900px;
 }
 
-#ph2 {
+.style3 #ph2 {
     position: absolute;
     left: 50%;
     margin-left: -307px;
@@ -38,53 +38,53 @@ body {
     margin-top: -20px;
 }
 
-#wall img {
+.style3 #wall img {
     float: left;
 }
 
-div[class^="col"] {
+.style3 div[class^="col"] {
     padding-left: 0px;
     padding-right: 10px;
     margin-bottom: 10px;
 }
 
-.row {
+.style3 .row {
     margin-bottom: 10px;
 }
 
-.row:nth-of-type(1)>div[class^="col"]>div {
+.style3 .row:nth-of-type(1)>div[class^="col"]>div {
     height: 410px;
 }
 
-.row:nth-of-type(1)>div[class^="col"]>div.half {
+.style3 .row:nth-of-type(1)>div[class^="col"]>div.half {
     height: 200px;
 }
 
-.row:nth-of-type(1)>div[class^="col"]>div.half:nth-of-type(1) {
+.style3 .row:nth-of-type(1)>div[class^="col"]>div.half:nth-of-type(1) {
     margin-bottom: 10px;
 }
 
-.row:nth-of-type(2)>div[class^="col"]>div {
+.style3 .row:nth-of-type(2)>div[class^="col"]>div {
     height: 515px;
 }
 
-.row:nth-of-type(3)>div[class^="col"]>div {
+.style3 .row:nth-of-type(3)>div[class^="col"]>div {
     height: 200px;
 }
 
-.container img {
+.style3 .container img {
     min-width: 50%;
     max-width: 200%;
     border: inset 2px rgb(0, 153, 255);
 }
 
-#style4 {
+.style4 {
     background-color: rgb(255, 219, 219);
     max-width: 2000px;
     height: 100%;
 }
 
-#style4 #div1 {
+.style4 #div1 {
     position: fixed;
     width: 300px;
     height: 950px;
@@ -93,7 +93,7 @@ div[class^="col"] {
     z-index: 3;
 }
 
-#style4 h4 {
+.style4 h4 {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
     position: absolute;
@@ -108,13 +108,12 @@ div[class^="col"] {
     background-color: rgba(255, 0, 0, 0.589)
 }
 
-#style4 h4:hover {
+.style4 h4:hover {
     background-color: black;
     color: rgb(255, 0, 0);
-    font-family: 'Rock Salt', cursive;
 }
 
-#style4 #ph1 {
+.style4 #ph1 {
     position: absolute;
     left: 50%;
     margin-left: -307px;
@@ -123,7 +122,7 @@ div[class^="col"] {
     z-index: 1;
 }
 
-#style4 #wall {
+.style4 #wall {
     position: absolute;
     left: 50%;
     top: 50px;
@@ -131,22 +130,22 @@ div[class^="col"] {
     width: 900px;
 }
 
-#style4 .col-sm-4 {
+.style4 .col-sm-4 {
     margin-top: 10px;
     min-width: 10%;
 }
 
-#style4 .ph2 {
+.style4 .ph2 {
     border: inset 5px rgb(0, 153, 255);
     margin: 0px -5px 50px -5px;
 }
 
-#style4 .ph2:hover {
+.style4 .ph2:hover {
     border: inset 5px rgb(15, 0, 70);
     margin: 0px -5px 0px -5px;
 }
 
-#style4 .ph2:active {
+.style4 .ph2:active {
     border: ridge 5px rgb(215, 250, 255);
     margin: 0px -5px 0px -5px;
 }
