@@ -14,7 +14,7 @@
     <title>戲曲故事館</title>
 </head>
 
-<body class="style3">
+<body>
     <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
         <a href="index.html" class="w3-padding-64 w3-center" id="a1">
             <h1>black cat</h1>
@@ -78,7 +78,7 @@
 
             // Modal Image Gallery
             function onClick(element) {
-                document.getElementById("img01").src = element.src;
+
                 document.getElementById("modal01").style.display = "block";
                 var captionText = document.getElementById("caption");
                 captionText.innerHTML = element.alt;
@@ -88,7 +88,7 @@
             <img src="Picture\戲曲故事館.jpg" id="ph2">
         </div>
         <!-- 照片牆 -->
-        <div id="wall">
+        <div class="wall">
 
             <div class="container">
                 <div class="row">

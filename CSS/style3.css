@@ -17,7 +17,7 @@ body {
     max-width: 200%;
 }
 
-#wall {
+.wall {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -34,7 +34,7 @@ body {
     margin-top: -20px;
 }
 
-#wall img {
+.wall img {
     float: left;
 }
 
@@ -44,31 +44,31 @@ div[class^="col"] {
     margin-bottom: 10px;
 }
 
-.row {
+.wall .row {
     margin-bottom: 10px;
 }
 
-.row:nth-of-type(1)>div[class^="col"]>div {
+.wall .row:nth-of-type(1)>div[class^="col"]>div {
     height: 410px;
 }
 
-.row:nth-of-type(1)>div[class^="col"]>div.half {
+.wall .row:nth-of-type(1)>div[class^="col"]>div.half {
     height: 200px;
 }
 
-.row:nth-of-type(1)>div[class^="col"]>div.half:nth-of-type(1) {
+.wall .row:nth-of-type(1)>div[class^="col"]>div.half:nth-of-type(1) {
     margin-bottom: 10px;
 }
 
-.row:nth-of-type(2)>div[class^="col"]>div {
+.wall .row:nth-of-type(2)>div[class^="col"]>div {
     height: 515px;
 }
 
-.row:nth-of-type(3)>div[class^="col"]>div {
+.wall .row:nth-of-type(3)>div[class^="col"]>div {
     height: 200px;
 }
 
-.container img {
+.wall .container img {
     min-width: 50%;
     max-width: 200%;
     border: inset 2px rgb(0, 153, 255);
