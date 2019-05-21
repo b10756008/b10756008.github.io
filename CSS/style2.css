@@ -80,7 +80,7 @@
             left: 50%;
             top: 50%;
             margin-left: -50%;
-            margin-top: 100%;
+            margin-top: 50%;
         }
         .td1,
         .td2,
@@ -94,7 +94,7 @@
             position: absolute;
             left: 50%;
             margin-left: -50%;
-            max-width: 100%;
+            max-width: 50%;
         }
         .table1 {
             width: 848px;
@@ -103,7 +103,7 @@
             left: 50%;
             top: 50%;
             margin-left: -50%;
-            margin-top: 200%;
+            margin-top: 50%;
         }
         .td1,
         .td2,
@@ -126,7 +126,7 @@
             left: 50%;
             top: 50%;
             margin-left: -50%;
-            margin-top: 100%;
+            margin-top: 50%;
         }
         .td1,
         .td2,
