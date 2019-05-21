@@ -46,22 +46,63 @@ h4:hover {
     width: 900px;
 }
 
-.col-sm-4 {
-    margin-top: 10px;
-    min-width: 10%;
+img {
+    max-width: 200%;
+    left: -50%;
 }
 
-.ph2 {
+#wall1 .col-sm-4 {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+#wall1 .ph2 {
     border: inset 5px rgb(0, 153, 255);
     margin: 0px -5px 50px -5px;
 }
 
-.ph2:hover {
+#wall1 .ph2:hover {
     border: inset 5px rgb(15, 0, 70);
     margin: 0px -5px 0px -5px;
 }
 
-.ph2:active {
+#wall1 .ph2:active {
     border: ridge 5px rgb(215, 250, 255);
     margin: 0px -5px 0px -5px;
+}
+
+@media (max-width:300px) {
+    #ph4 {
+        position: absolute;
+        left: 50%;
+        margin-left: -50%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    #ph4 {
+        position: absolute;
+        left: 50%;
+        margin-left: -50%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    #ph4 {
+        position: absolute;
+        left: 50%;
+        margin-left: -50%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:992px) and (min-width:300px) {
+    #ph4 {
+        position: absolute;
+        left: 50%;
+        margin-left: -50%;
+        max-width: 100%;
+    }
 }

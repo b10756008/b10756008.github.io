@@ -73,3 +73,39 @@ div[class^="col"] {
     max-width: 200%;
     border: inset 2px rgb(0, 153, 255);
 }
+
+@media (max-width:300px) {
+    #ph1 {
+        position: absolute;
+        left: 50%;
+        margin-left: -50%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    #ph1 {
+        position: absolute;
+        left: 50%;
+        margin-left: -50%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    #ph1 {
+        position: absolute;
+        left: 50%;
+        margin-left: -50%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:992px) and (min-width:300px) {
+    #ph1 {
+        position: absolute;
+        left: 50%;
+        margin-left: -50%;
+        max-width: 100%;
+    }
+}
