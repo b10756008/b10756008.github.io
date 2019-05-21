@@ -1,19 +1,15 @@
-.style3 {
+body {
     background-color: rgb(212, 255, 253);
     max-width: 2000px;
     height: 100%;
 }
 
-.style3 #div1 {
-    position: fixed;
-    width: 300px;
-    height: 950px;
+#header,
+#mySidebar {
     background-color: rgb(0, 27, 58);
-    margin-top: -10px;
-    z-index: 3;
 }
 
-.style3 #ph1 {
+#ph1 {
     position: absolute;
     left: 50%;
     margin-left: -350px;
@@ -21,7 +17,7 @@
     max-width: 200%;
 }
 
-.style3 #wall {
+#wall {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -30,7 +26,7 @@
     width: 900px;
 }
 
-.style3 #ph2 {
+#ph2 {
     position: absolute;
     left: 50%;
     margin-left: -307px;
@@ -38,41 +34,41 @@
     margin-top: -20px;
 }
 
-.style3 #wall img {
+#wall img {
     float: left;
 }
 
-.style3 div[class^="col"] {
+div[class^="col"] {
     padding-left: 0px;
     padding-right: 10px;
     margin-bottom: 10px;
 }
 
-.style3 .row {
+.row {
     margin-bottom: 10px;
 }
 
-.style3 .row:nth-of-type(1)>div[class^="col"]>div {
+.row:nth-of-type(1)>div[class^="col"]>div {
     height: 410px;
 }
 
-.style3 .row:nth-of-type(1)>div[class^="col"]>div.half {
+.row:nth-of-type(1)>div[class^="col"]>div.half {
     height: 200px;
 }
 
-.style3 .row:nth-of-type(1)>div[class^="col"]>div.half:nth-of-type(1) {
+.row:nth-of-type(1)>div[class^="col"]>div.half:nth-of-type(1) {
     margin-bottom: 10px;
 }
 
-.style3 .row:nth-of-type(2)>div[class^="col"]>div {
+.row:nth-of-type(2)>div[class^="col"]>div {
     height: 515px;
 }
 
-.style3 .row:nth-of-type(3)>div[class^="col"]>div {
+.row:nth-of-type(3)>div[class^="col"]>div {
     height: 200px;
 }
 
-.style3 .container img {
+.container img {
     min-width: 50%;
     max-width: 200%;
     border: inset 2px rgb(0, 153, 255);

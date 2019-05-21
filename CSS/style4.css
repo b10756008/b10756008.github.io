@@ -1,19 +1,15 @@
-.style4 {
+body {
     background-color: rgb(255, 219, 219);
     max-width: 2000px;
     height: 100%;
 }
 
-.style4 #div1 {
-    position: fixed;
-    width: 300px;
-    height: 950px;
+#header,
+#mySidebar {
     background-color: rgb(37, 0, 0);
-    margin-top: -10px;
-    z-index: 3;
 }
 
-.style4 h4 {
+h4 {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
     position: absolute;
@@ -28,12 +24,12 @@
     background-color: rgba(255, 0, 0, 0.589)
 }
 
-.style4 h4:hover {
+h4:hover {
     background-color: black;
     color: rgb(255, 0, 0);
 }
 
-.style4 #ph4 {
+#ph4 {
     position: absolute;
     left: 50%;
     margin-left: -307px;
@@ -42,7 +38,7 @@
     z-index: 1;
 }
 
-.style4 #wall1 {
+#wall1 {
     position: absolute;
     left: 50%;
     top: 50px;
@@ -50,22 +46,22 @@
     width: 900px;
 }
 
-.style4 .col-sm-4 {
+.col-sm-4 {
     margin-top: 10px;
     min-width: 10%;
 }
 
-.style4 .ph2 {
+.ph2 {
     border: inset 5px rgb(0, 153, 255);
     margin: 0px -5px 50px -5px;
 }
 
-.style4 .ph2:hover {
+.ph2:hover {
     border: inset 5px rgb(15, 0, 70);
     margin: 0px -5px 0px -5px;
 }
 
-.style4 .ph2:active {
+.ph2:active {
     border: ridge 5px rgb(215, 250, 255);
     margin: 0px -5px 0px -5px;
 }

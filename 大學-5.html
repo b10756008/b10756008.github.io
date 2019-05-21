@@ -8,98 +8,137 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="CSS\style1.css">
     <link rel="stylesheet" href="CSS\style3.css">
+    <link rel="stylesheet" href="CSS\w3.css">
     <link rel="stylesheet" href="CSS\bootstrap-grid.css">
 
     <title>神山瀑布</title>
 </head>
 
 <body class="style3">
-    <div class="row">
-        <div class="col-sm" id="div1">
-            <a href="index.html" id="a1">
-                <h1>black cat</h1>
-            </a>
-            <a href="自我介紹.html" target="_parent" class="a2">
-                <h2>自我介紹</h2>
-            </a>
-            <a href="大學生活.html" target="_parent" class="a3">
-                <h2>大學生活</h2>
-            </a>
-            <a href="大學-1.html" target="_parent" class="a5">
-                <h3>戲曲故事館</h3>
-            </a>
-            <a href="大學-2.html" target="_parent" class="a5">
-                <h3>神山</h3>
-            </a>
-            <a href="大學-3.html" target="_parent" class="a5">
-                <h3>屏東燈會</h3>
-            </a>
-            <a href="大學-4.html" target="_parent" class="a5">
-                <h3>綠色步道</h3>
-            </a>
-            <a href="大學-5.html" target="_parent" class="a5">
-                <h3>神山瀑布</h3>
-            </a>
-            <a href="興趣.html" target="_parent" class="a4">
+    <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+        <a href="index.html" class="w3-padding-64 w3-center" id="a1">
+            <h1>black cat</h1>
+        </a>
+        <a href="自我介紹.html" onclick="w3_close()" class="w3-bar-item w3-button">
+            <h2>自我介紹</h2>
+        </a>
+        <a href="大學生活.html" onclick="w3_close()" class="w3-bar-item w3-button">
+            <h2>大學生活</h2>
+        </a>
+        <a href="大學-1.html" target="_parent" class="a5">
+            <h3>戲曲故事館</h3>
+        </a>
+        <a href="大學-2.html" target="_parent" class="a5">
+            <h3>神山</h3>
+        </a>
+        <a href="大學-3.html" target="_parent" class="a5">
+            <h3>屏東燈會</h3>
+        </a>
+        <a href="大學-4.html" target="_parent" class="a5">
+            <h3>綠色步道</h3>
+        </a>
+        <a href="大學-5.html" target="_parent" class="a5">
+            <h3>神山瀑布</h3>
+            <a href="興趣.html" onclick="w3_close()" class="w3-bar-item w3-button">
                 <h2>興趣</h2>
             </a>
-        </div>
-    </div>
-    <div>
-        <img src="Picture\瀑布.jpg" id="ph2">
-    </div>
-    <!-- 照片牆 -->
-    <div id="wall">
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">
+                <h2>收起</h2>
+            </a>
+    </nav>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="half">
-                        <a href="Picture\瀑布\1.jpg" target="_block"><img src="Picture\瀑布\縮圖\1.jpg"></a>
-                    </div>
-                    <div class="half">
-                        <a href="Picture\瀑布\2.jpg" target="_block"><img src="Picture\瀑布\縮圖\2.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div>
-                        <a href="Picture\瀑布\3.jpg" target="_block"><img src="Picture\瀑布\縮圖\3.jpg"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div>
-                        <a href="Picture\瀑布\4.jpg" target="_block"><img src="Picture\瀑布\縮圖\4.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div>
-                        <a href="Picture\瀑布\5.jpg" target="_block"><img src="Picture\瀑布\縮圖\5.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div>
-                        <a href="Picture\瀑布\6.jpg" target="_block"><img src="Picture\瀑布\縮圖\6.jpg"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-5">
-                    <div>
-                        <a href="Picture\瀑布\7.jpg" target="_block"><img src="Picture\瀑布\縮圖\7.jpg"></a>
-                    </div>
-                </div>
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large  w3-xlarge w3-padding-16" id="header">
+        <span class="w3-left w3-padding"><div class="head1">black cat</div></span>
+        <a href="javascript:void(0)" class="w3-right w3-button" onclick="w3_open()">
+            <div class="head1">☰</div>
+        </a>
+    </header>
 
-                <div class="col-md-4">
-                    <div>
-                        <a href="Picture\瀑布\8.jpg" target="_block"><img src="Picture\瀑布\縮圖\8.jpg"></a>
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Push down content on small screens -->
+        <div class="w3-hide-large" style="margin-top:83px"></div>
+
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+
+            // Modal Image Gallery
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+        </script>
+        <div>
+            <img src="Picture\瀑布.jpg" id="ph2">
+        </div>
+        <!-- 照片牆 -->
+        <div id="wall">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="half">
+                            <a href="Picture\瀑布\1.jpg" target="_block"><img src="Picture\瀑布\縮圖\1.jpg"></a>
+                        </div>
+                        <div class="half">
+                            <a href="Picture\瀑布\2.jpg" target="_block"><img src="Picture\瀑布\縮圖\2.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div>
+                            <a href="Picture\瀑布\3.jpg" target="_block"><img src="Picture\瀑布\縮圖\3.jpg"></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div>
-                        <a href="Picture\瀑布\9.jpg" target="_block"><img src="Picture\瀑布\縮圖\9.jpg"></a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div>
+                            <a href="Picture\瀑布\4.jpg" target="_block"><img src="Picture\瀑布\縮圖\4.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <a href="Picture\瀑布\5.jpg" target="_block"><img src="Picture\瀑布\縮圖\5.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <a href="Picture\瀑布\6.jpg" target="_block"><img src="Picture\瀑布\縮圖\6.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div>
+                            <a href="Picture\瀑布\7.jpg" target="_block"><img src="Picture\瀑布\縮圖\7.jpg"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div>
+                            <a href="Picture\瀑布\8.jpg" target="_block"><img src="Picture\瀑布\縮圖\8.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <a href="Picture\瀑布\9.jpg" target="_block"><img src="Picture\瀑布\縮圖\9.jpg"></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
