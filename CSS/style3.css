@@ -34,13 +34,11 @@ body {
     margin-top: -20px;
 }
 
-.img1 {
-    float: left;
-}
-
 .wall div[class^="col"] {
+    float: left;
     padding-left: 0px;
     padding-right: 0px;
+    margin-right: 5px;
     margin-bottom: 10px;
 }
 
