@@ -21,9 +21,9 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -300px;
+    margin-left: -380px;
     margin-top: 500px;
-    width: 900px;
+    width: 100%;
 }
 
 #ph2 {
@@ -34,13 +34,13 @@ body {
     margin-top: -20px;
 }
 
-.wall img {
+.img1 {
     float: left;
 }
 
-div[class^="col"] {
+.wall div[class^="col"] {
     padding-left: 0px;
-    padding-right: 10px;
+    padding-right: 0px;
     margin-bottom: 10px;
 }
 
@@ -69,8 +69,7 @@ div[class^="col"] {
 }
 
 .wall .container img {
-    min-width: 50%;
-    max-width: 200%;
+    max-width: 100%;
     border: inset 2px rgb(0, 153, 255);
 }
 
@@ -81,6 +80,13 @@ div[class^="col"] {
         margin-left: -50%;
         max-width: 100%;
     }
+    .wall {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -50%;
+        width: 100%;
+    }
 }
 
 @media (max-width:600px) {
@@ -89,6 +95,13 @@ div[class^="col"] {
         left: 50%;
         margin-left: -50%;
         max-width: 100%;
+    }
+    .wall {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -50%;
+        width: 100%;
     }
 }
 
@@ -99,6 +112,13 @@ div[class^="col"] {
         margin-left: -50%;
         max-width: 100%;
     }
+    .wall {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -50%;
+        width: 100%;
+    }
 }
 
 @media (max-width:992px) and (min-width:300px) {
@@ -107,5 +127,12 @@ div[class^="col"] {
         left: 50%;
         margin-left: -50%;
         max-width: 100%;
+    }
+    .wall {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -50%;
+        width: 100%;
     }
 }
