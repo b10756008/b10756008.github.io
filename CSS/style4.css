@@ -48,10 +48,9 @@ h4:hover {
     width: 950px;
 }
 
-.col-md-4 {
+.col-md-6 {
     float: left;
-    margin-left: 5px;
-    margin-bottom: 60px
+    margin-right: 10px
 }
 
 .ph2 {
@@ -74,6 +73,12 @@ h4:hover {
     font-family: 'Kalam', cursive, "SimSun", cursive;
 }
 
+.video1 {
+    width: 560px;
+    height: 315px;
+    max-width: 100%;
+}
+
 @media (max-width:300px) {
     #ph4 {
         position: absolute;
@@ -93,7 +98,7 @@ h4:hover {
         margin-top: 50px;
         width: 100%;
     }
-    .col-md-4 {
+    .col-md-6 {
         float: none;
     }
 }
@@ -117,7 +122,7 @@ h4:hover {
         margin-top: 50px;
         width: 100%;
     }
-    .col-md-4 {
+    .col-md-6 {
         float: none;
     }
 }
@@ -141,7 +146,7 @@ h4:hover {
         margin-top: 50px;
         width: 100%;
     }
-    .col-md-4 {
+    .col-md-6 {
         float: none;
     }
 }
@@ -165,7 +170,7 @@ h4:hover {
         margin-top: 50px;
         width: 100%;
     }
-    .col-md-4 {
+    .col-md-6 {
         float: none;
     }
 }
