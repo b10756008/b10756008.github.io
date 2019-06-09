@@ -48,9 +48,38 @@ h4:hover {
     width: 950px;
 }
 
+.col-md-4 {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 60px
+}
+
 .col-md-6 {
     float: left;
-    margin-right: 10px
+    margin-left: 35px;
+    margin-bottom: 30px
+}
+
+.video1 {
+    width: 835px;
+    height: 500px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    max-width: 100%;
+}
+
+.video2 {
+    width: 400px;
+    height: 250px;
+    max-width: 100%;
+}
+
+#MMD {
+    width: 835px;
+    height: 500px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    max-width: 100%;
 }
 
 .ph2 {
@@ -73,12 +102,6 @@ h4:hover {
     font-family: 'Kalam', cursive, "SimSun", cursive;
 }
 
-.video1 {
-    width: 560px;
-    height: 315px;
-    max-width: 100%;
-}
-
 @media (max-width:300px) {
     #ph4 {
         position: absolute;
@@ -97,6 +120,9 @@ h4:hover {
         margin-left: -50%;
         margin-top: 50px;
         width: 100%;
+    }
+    .col-md-4 {
+        float: none;
     }
     .col-md-6 {
         float: none;
@@ -122,6 +148,9 @@ h4:hover {
         margin-top: 50px;
         width: 100%;
     }
+    .col-md-4 {
+        float: none;
+    }
     .col-md-6 {
         float: none;
     }
@@ -146,6 +175,9 @@ h4:hover {
         margin-top: 50px;
         width: 100%;
     }
+    .col-md-4 {
+        float: none;
+    }
     .col-md-6 {
         float: none;
     }
@@ -169,6 +201,9 @@ h4:hover {
         margin-left: -50%;
         margin-top: 50px;
         width: 100%;
+    }
+    .col-md-4 {
+        float: none;
     }
     .col-md-6 {
         float: none;
